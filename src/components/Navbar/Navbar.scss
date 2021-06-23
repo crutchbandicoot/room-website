@@ -1,0 +1,21 @@
+li {
+  padding-right: 0.5rem;
+}
+
+li > a {
+  text-decoration: none;
+  &:hover{
+      color: #555
+  }
+}
+
+h2,
+li > a {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
