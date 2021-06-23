@@ -26,9 +26,9 @@ function App() {
               with our collection and make your property a reflection of you and
               what you love.
             </p>
-            {/* eslint-disable-next-line */}
             <h5 className="shop-now">
-              <a href="">
+              {/* eslint-disable-next-line */}
+              <a href="#">
                 Shop now
                 <span>
                   <img src={arrow} alt="" />

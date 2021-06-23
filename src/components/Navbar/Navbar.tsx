@@ -8,8 +8,11 @@ const Navbar = () => {
         <ul style={{ display: "flex", listStyle: "none", padding: "0 1.5rem", paddingTop: "0.95rem" }}>
             {/* eslint-disable-next-line */}
             <li><a href="#">home</a></li>
+            {/* eslint-disable-next-line */}
             <li><a href="#">shop</a></li>
+            {/* eslint-disable-next-line */}
             <li><a href="#">about</a></li>
+            {/* eslint-disable-next-line */}
             <li><a href="#">contact</a></li>
         </ul>
       </nav>
