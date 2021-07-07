@@ -1,0 +1,20 @@
+@import "../../scss/variables.scss";
+
+.slide-btn{
+    position: relative;
+    background-color: $black;
+    width: 3.33rem;
+    height: 4.5rem;
+    transition: all 500ms ease;
+
+    &:hover {
+        background-color: $dark-gray;
+    }
+
+    &__img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
