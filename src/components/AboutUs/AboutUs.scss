@@ -1,0 +1,11 @@
+.img {
+  height: 30vh;
+  &--dark {
+    height: inherit;
+    background-image: url("../../assets/img/image-about-dark.jpg");
+  }
+  &--light {
+    height: inherit;
+    background-image: url("../../assets/img/image-about-light.jpg");
+  }
+}
