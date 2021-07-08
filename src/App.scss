@@ -1,88 +1,31 @@
-@import "variables.scss";
-@import "typography.scss";
+// .slider {
+//   z-index: 40;
+//   cursor: pointer;
+//   display: flex;
+//   position: absolute;
+//   bottom: 0;
+//   &__wrapper{
+//     background-color: $black;
+//     width: 3.33rem;
+//     height: 5rem;
+//   }
 
-.hero-img {
-  height: 70vh;
-  background-image: url("./assets/img/desktop-image-hero-1.jpg");
-  background-size: 100%;
-}
+//   &--left, &--right {
+//     position: absolute;
+//     padding-left: 1.5rem;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+// }
 
-.nav-container {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.heading {
-  color: $very-dark-gray;
-  font-family: "Spartan-Bold";
-}
-
-.sub-heading {
-  color: $very-dark-gray;
-  font-family: "Spartan-Semibold";
-  text-transform: uppercase;
-}
-
-.shop-now {
-  a {
-    color: $very-dark-gray;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.6em;
-    cursor: pointer;
-    // transition: all 3s ease-in-out;
-
-    &:hover {
-      color: $very-dark-gray;
-      // border-bottom: 1px solid $very-dark-gray;
-    }
-  }
-}
-
-.abs-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h2 {
-  color: #333;
-}
-
-.text {
-  color: $dark-gray;
-  font-size: 0.75em;
-}
-
-.slider {
-  z-index: 40;
-  cursor: pointer;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  &__wrapper{
-    background-color: $black;
-    width: 3.33rem;
-    height: 5rem;
-  }
-
-  &--left, &--right {
-    position: absolute;
-    padding-left: 1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-.img {
-  height: 30vh;
-  &--dark {
-    height: inherit;
-    background-image: url("./assets/img/image-about-dark.jpg");
-  }
-  &--light {
-    height: inherit;
-    background-image: url("./assets/img/image-about-light.jpg");
-  }
-}
+// .img {
+//   height: 30vh;
+//   &--dark {
+//     height: inherit;
+//     background-image: url("./assets/img/image-about-dark.jpg");
+//   }
+//   &--light {
+//     height: inherit;
+//     background-image: url("./assets/img/image-about-light.jpg");
+//   }
+// }

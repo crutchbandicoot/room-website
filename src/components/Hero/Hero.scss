@@ -1,0 +1,92 @@
+@import "../../scss/variables.scss";
+@import "../../scss/typography.scss";
+
+.nav-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.heading {
+  color: $very-dark-gray;
+  font-family: "Spartan-Bold";
+}
+
+.sub-heading {
+  color: $very-dark-gray;
+  font-family: "Spartan-Semibold";
+  text-transform: uppercase;
+}
+
+.shop-now {
+  a {
+    color: $very-dark-gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    cursor: pointer;
+    // transition: all 3s ease-in-out;
+
+    &:hover {
+      color: $very-dark-gray;
+      // border-bottom: 1px solid $very-dark-gray;
+    }
+  }
+}
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+
+  h2 {
+    font-family: "Spartan-Bold";
+  }
+
+  p {
+    color: $dark-gray;
+  }
+
+  a {
+    color: $very-dark-gray;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.875em;
+    letter-spacing: 0.6em;
+
+    &:hover {
+      color: $very-dark-gray;
+    }
+  }
+
+  img {
+    padding-left: 0.5rem;
+  }
+}
+
+h2 {
+  color: #333;
+}
+
+.text {
+  color: $dark-gray;
+  font-size: 0.75em;
+}
+
+.slider {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .abs-center{
+    width: 90%;
+  }
+
+  .slider {
+    top: -12rem;
+    right: 0rem;
+  }
+}
