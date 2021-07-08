@@ -1,53 +1,31 @@
-@import "./scss/variables.scss";
-@import "./scss/typography.scss";
+// .slider {
+//   z-index: 40;
+//   cursor: pointer;
+//   display: flex;
+//   position: absolute;
+//   bottom: 0;
+//   &__wrapper{
+//     background-color: $black;
+//     width: 3.33rem;
+//     height: 5rem;
+//   }
 
-.hero-img {
-  height: 70vh;
-  // background-image: url("./assets/img/desktop-image-hero-1.jpg");
-  background-size: 100%;
-}
+//   &--left, &--right {
+//     position: absolute;
+//     padding-left: 1.5rem;
+//     top: 50%;
+//     transform: translateY(-50%);
+//   }
+// }
 
-
-
-.heading {
-  color: $very-dark-gray;
-  font-family: "Spartan-Bold";
-}
-
-
-
-
-
-
-
-.slider {
-  z-index: 40;
-  cursor: pointer;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  &__wrapper{
-    background-color: $black;
-    width: 3.33rem;
-    height: 5rem;
-  }
-
-  &--left, &--right {
-    position: absolute;
-    padding-left: 1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-.img {
-  height: 30vh;
-  &--dark {
-    height: inherit;
-    background-image: url("./assets/img/image-about-dark.jpg");
-  }
-  &--light {
-    height: inherit;
-    background-image: url("./assets/img/image-about-light.jpg");
-  }
-}
+// .img {
+//   height: 30vh;
+//   &--dark {
+//     height: inherit;
+//     background-image: url("./assets/img/image-about-dark.jpg");
+//   }
+//   &--light {
+//     height: inherit;
+//     background-image: url("./assets/img/image-about-light.jpg");
+//   }
+// }

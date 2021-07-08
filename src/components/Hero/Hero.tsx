@@ -21,9 +21,19 @@ const styles = createUseStyles((theme: any) => ({
     backgroundSize: "100%",
     backgroundRepeat: "no-repeat",
   },
+  "@media (max-width: 375px)": {
+    heroImg: {
+      height: "44vh",
+    }
+  }
 }));
 
+const changeSlide = () =>{
+  console.log('change slide clicked');
+}
+
 const Hero = (props: any) => {
+
   const classes = styles(props);
 
   return (
@@ -37,7 +47,7 @@ const Hero = (props: any) => {
           </div>
         </div>
         <div style={{ position: "relative" }} className="col-sm-5">
-          <div style={{ width: "85%" }}  className="abs-center">
+          <div className="abs-center">
             <h2>{props.heading}</h2>
             <p>{props.text}</p>
             <a href="#">
@@ -48,8 +58,8 @@ const Hero = (props: any) => {
             </a>
           </div>
           <div className="slider">
-            <Button img={left}/>
-            <Button img={right}/>
+            <Button img={left} handleClick={changeSlide}/>
+            <Button img={right} handleClick={changeSlide}/>
           </div>
         </div>
       </div>

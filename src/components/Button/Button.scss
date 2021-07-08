@@ -6,6 +6,7 @@
     width: 3.33rem;
     height: 4.5rem;
     transition: all 500ms ease;
+    cursor: pointer;
 
     &:hover {
         background-color: $dark-gray;

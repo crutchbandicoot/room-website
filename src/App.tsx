@@ -43,7 +43,7 @@ function App() {
       />
 
       {/* About section */}
-      <div className="row g-0">
+      {/* <div style={{paddingTop: "10rem"}} className="row g-0">
         <div className="col-3">
           <div className="img">
             <div className="img--dark"></div>
@@ -67,7 +67,7 @@ function App() {
             <div className="img--light"></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
